@@ -60,7 +60,7 @@ TSerialize = Callable[[TModelOrSequence], bytes]
 
 
 def deserialize(
-    *, data: str, structure: TStructure, converter: cattr.Converter
+    *, data: str, structure: TStructure, converter: cattr.GenConverter
 ) -> TDeserializeReturn:
     """Translate API data into models.
     """
@@ -77,9 +77,9 @@ def deserialize(
     return response
 
 
-converter31 = cattr.Converter()
+converter31 = cattr.GenConverter()
 deserialize31 = functools.partial(deserialize, converter=converter31)
-converter40 = cattr.Converter()
+converter40 = cattr.GenConverter()
 deserialize40 = functools.partial(deserialize, converter=converter40)
 
 
@@ -128,7 +128,7 @@ def forward_ref_structure_hook(context, converter, data, forward_ref):
     return instance
 
 
-def unstructure_hook(api_model):
+def unstructure_hook(converter, api_model):
     """cattr unstructure hook
 
     Map reserved_ words in models to correct json field names.
@@ -136,8 +136,11 @@ def unstructure_hook(api_model):
     EXPLICIT_NULL fields to None so that we only send null
     in the json for fields the caller set EXPLICIT_NULL on.
     """
-    data = cattr.global_converter.unstructure_attrs_asdict(api_model)
+    print("Hello there")  # not getting in here ever
+    data = converter.unstructure_attrs_asdict(api_model)
     for key, value in data.copy().items():
+        print(f"key: {key}")
+        print(f"value: {value}")
         if value is None:
             del data[key]
         elif value == model.EXPLICIT_NULL:
@@ -151,16 +154,21 @@ def unstructure_hook(api_model):
 if sys.version_info < (3, 7):
     from dateutil import parser
 
-    def datetime_structure_hook(d: str, t: datetime.datetime) -> datetime.datetime:
+    def datetime_structure_hook(
+        d: str, t: Type[datetime.datetime]
+    ) -> datetime.datetime:
         return parser.isoparse(d)
 
 
 else:
 
-    def datetime_structure_hook(d: str, t: datetime.datetime) -> datetime.datetime:
+    def datetime_structure_hook(
+        d: str, t: Type[datetime.datetime]
+    ) -> datetime.datetime:
         return datetime.datetime.strptime(d, "%Y-%m-%dT%H:%M:%S.%f%z")
 
 
 converter31.register_structure_hook(datetime.datetime, datetime_structure_hook)
 converter40.register_structure_hook(datetime.datetime, datetime_structure_hook)
-cattr.register_unstructure_hook(model.Model, unstructure_hook)  # type: ignore
+# converter31.register_unstructure_hook(model.Model, unstructure_hook)  # type: ignore
+# converter40.register_unstructure_hook(model.Model, unstructure_hook)  # type: ignore
