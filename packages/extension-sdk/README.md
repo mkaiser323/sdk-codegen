@@ -6,7 +6,7 @@ A Looker extension is JavaScript code that code that runs inside of the Looker U
 
 Extensions are implemented as a sandboxed `<iframe>` and communication with Looker is accomplished through this SDK. Internally, the SDK will translate function calls into messages passed safely across the iframe boundary. The specific format of those messages is considered private, and this SDK is the only supported interface for interacting with the host from an extension.
 
-[React bindings for extensions](https://github.com/looker-open-source/extension-template-react) are also available, as well as [a template project in React and TypeScript to help you get started](https://github.com/looker-open-source/extension-template-react).
+[React bindings for extensions](https://github.com/mkaiser323/extension-template-react) are also available, as well as [a template project in React and TypeScript to help you get started](https://github.com/mkaiser323/extension-template-react).
 
 ## Installation
 
@@ -405,5 +405,5 @@ extensionSDK.spartanLogout()
 
 ## Related Projects
 
-- [Looker extension examples](https://github.com/looker-open-source/extension-examples).
-- [Looker SDK](https://github.com/looker-open-source/sdk-codegen/tree/main/packages/sdk).
+- [Looker extension examples](https://github.com/mkaiser323/extension-examples).
+- [Looker SDK](https://github.com/mkaiser323/sdk-codegen/tree/main/packages/sdk).

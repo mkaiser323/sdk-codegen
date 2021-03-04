@@ -135,7 +135,7 @@ It currently looks something like this (I don't have access to the repo where it
 
       # checkout hackathonapp repo
       - git:
-          repo: git@github.com:looker-open-source/sdk-examples.git
+          repo: git@github.com:mkaiser323/sdk-examples.git
           dest: "{{hackathonapp_checkout_location}}"
           version: "{{hackathonapp_app_version}}"
         register: git_info

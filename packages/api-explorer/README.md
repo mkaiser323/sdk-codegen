@@ -4,7 +4,7 @@ Use this **OpenAPI Explorer** to read any [OpenAPI](https://www.openapis.org/) s
 Fast and powerful searching is also supported.
 
 This is an Open Source project that builds on the specification processing created in the Looker
-[SDK Codegen project](https://github.com/looker-open-source/sdk-codegen).
+[SDK Codegen project](https://github.com/mkaiser323/sdk-codegen).
 
 ## Getting started
 

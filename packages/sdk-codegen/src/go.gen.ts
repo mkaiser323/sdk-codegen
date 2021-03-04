@@ -356,7 +356,7 @@ package ${this.packageName}
 
 import (
     "fmt"
-    "github.com/looker-open-source/sdk-codegen/go/rtl"
+    "github.com/mkaiser323/sdk-codegen/go/rtl"
     "net/url"
     "time"
 )
@@ -380,7 +380,7 @@ func NewLookerSDK(session *rtl.AuthSession) *LookerSDK {
 package ${this.packageName}
 
 import (
-  "github.com/looker-open-source/sdk-codegen/go/rtl"
+  "github.com/mkaiser323/sdk-codegen/go/rtl"
   "net/url"
   "time"
 )

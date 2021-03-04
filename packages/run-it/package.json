@@ -12,12 +12,12 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/looker-open-source/sdk-codegen.git",
+    "url": "git+https://github.com/mkaiser323/sdk-codegen.git",
     "directory": "packages/api-explorer"
   },
-  "homepage": "https://github.com/looker-open-source/sdk-codegen/tree/main/packages/run-it",
+  "homepage": "https://github.com/mkaiser323/sdk-codegen/tree/main/packages/run-it",
   "bugs": {
-    "url": "https://github.com/looker-open-source/sdk-codegen/issues?q=is%3Aopen+is%3Aissue+project%3Alooker-open-source%2Fsdk-codegen%2F7"
+    "url": "https://github.com/mkaiser323/sdk-codegen/issues?q=is%3Aopen+is%3Aissue+project%3Amkaiser323%2Fsdk-codegen%2F7"
   },
   "scripts": {
     "play": "webpack-dev-server --https --disable-host-check --config webpack.dev.config.js --entry ./playground/index.tsx",

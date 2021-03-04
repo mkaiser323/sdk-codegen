@@ -6,7 +6,7 @@ This package is specifically for using the Looker Typescript SDK with Node. It d
 
 The SDK uses a plug-in architecture (also known as dependency injection) for initializing that supports run-time specific transports (like `NodeTransport` and `BrowserTransport`) and different approaches for managing API authentication (like `NodeSession`, `BrowserSession`, `ProxySession`, and `OauthSession`).
 
-**DISCLAIMER**: This is a _beta_ version of the Looker SDK. Implementations are still subject to change, but SDK method calls are expected to work correctly. Please [report any issues](https://github.com/looker-open-source/sdk-codegen/issues) encountered, and indicate the SDK language in the report.
+**DISCLAIMER**: This is a _beta_ version of the Looker SDK. Implementations are still subject to change, but SDK method calls are expected to work correctly. Please [report any issues](https://github.com/mkaiser323/sdk-codegen/issues) encountered, and indicate the SDK language in the report.
 
 ## Getting started
 
@@ -194,7 +194,7 @@ describe('sudo', () => {
 
 ## Environment variable configuration
 
-[Environment variables](https://github.com/looker-open-source/sdk-codegen#environment-variable-configuration) can be used to configure access for the **Node** version of the Looker SDK.
+[Environment variables](https://github.com/mkaiser323/sdk-codegen#environment-variable-configuration) can be used to configure access for the **Node** version of the Looker SDK.
 
 Once the desired environment variables are set, the following code is all that's required to initialize the Looker SDK and retrieve the API credential's `User` information.
 
@@ -255,4 +255,4 @@ See the [SDK Examples](/examples/typescript) folder for additional Typescript SD
 
 ## A note about security
 
-Any script or configuration file used to provide credentials to your Looker SDK instance [needs to be secured](https://github.com/looker-open-source/sdk-codegen#securing-your-sdk-credentials).
+Any script or configuration file used to provide credentials to your Looker SDK instance [needs to be secured](https://github.com/mkaiser323/sdk-codegen#securing-your-sdk-credentials).

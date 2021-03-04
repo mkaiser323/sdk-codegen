@@ -145,6 +145,6 @@ export function* sagaCallbacks() {
 
 ## Related Projects
 
-- [Looker extension examples](https://github.com/looker-open-source/extension-examples).
-- [Looker extension SDK](https://github.com/looker-open-source/sdk-codegen/tree/main/packages/extension-sdk).
-- [Looker SDK](https://github.com/looker-open-source/sdk-codegen/tree/main/packages/sdk).
+- [Looker extension examples](https://github.com/mkaiser323/extension-examples).
+- [Looker extension SDK](https://github.com/mkaiser323/sdk-codegen/tree/main/packages/extension-sdk).
+- [Looker SDK](https://github.com/mkaiser323/sdk-codegen/tree/main/packages/sdk).

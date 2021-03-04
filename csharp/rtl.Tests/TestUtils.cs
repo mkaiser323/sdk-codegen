@@ -46,7 +46,7 @@ namespace sdkrtl.Tests
 
         public TestConfig(string iniFile = null, string sectionName = null)
         {
-            HtmlTestUrl = "https://github.com/looker-open-source/sdk-codegen";
+            HtmlTestUrl = "https://github.com/mkaiser323/sdk-codegen";
             HtmlTestContent = "One SDK to rule them all";
 
             var rootPath = Path.GetFullPath("../../../../");

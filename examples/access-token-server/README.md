@@ -44,8 +44,8 @@ LOOKER_CLIENT_SECRET=
 
 ## Using in a Looker extension
 
-1. The client id and client secret should be added as user attributes for the extension. See the [kitchen sink readme](https://github.com/looker-open-source/extension-template-kitchensink/blob/master/README.md) for details.
-2. Use the extension sdk serverProxy api to get the access token. The credentials should be embedded in the request body using secret key tags. See the [kitchen sink readme](https://github.com/looker-open-source/extension-template-kitchensink/blob/master/README.md) for details. Note the access token and an expiry date is returned. Note that the expiry date is 5 minutes less than the expiry date actually returned by google. Any use of the access token should take this into account. Before using the access token, check if it has and request a new one. If it has expired, a new token is guaranteed to be returned.
+1. The client id and client secret should be added as user attributes for the extension. See the [kitchen sink readme](https://github.com/mkaiser323/extension-template-kitchensink/blob/master/README.md) for details.
+2. Use the extension sdk serverProxy api to get the access token. The credentials should be embedded in the request body using secret key tags. See the [kitchen sink readme](https://github.com/mkaiser323/extension-template-kitchensink/blob/master/README.md) for details. Note the access token and an expiry date is returned. Note that the expiry date is 5 minutes less than the expiry date actually returned by google. Any use of the access token should take this into account. Before using the access token, check if it has and request a new one. If it has expired, a new token is guaranteed to be returned.
 3. The extension SDK fetch api maybe used with the access token. It does not need to use the extension SDK server proxy to all the Google APIs. Note that the token can be used in the following ways:
    - Query string parameter - `https://www.googleapis.com/drive/v2/files?access_token=access_token`
    - Request header - `Authorization: Bearer access_token`

@@ -6,7 +6,7 @@ This package supports using the Looker SDK in the browser. The [@looker/sdk-node
 
 The SDK uses a plug-in architecture (also known as dependency injection) for initializing that supports run-time specific transports (like `NodeTransport` and `BrowserTransport`) and different approaches for managing API authentication (like `NodeSession`, `BrowserSession`, `ProxySession`, and `CorsSession`).
 
-**DISCLAIMER**: This is a _beta_ version of the Looker SDK. Implementations are still subject to change, but SDK method calls are expected to work correctly. Please [report any issues](https://github.com/looker-open-source/sdk-codegen/issues) encountered, and indicate the SDK language in the report.
+**DISCLAIMER**: This is a _beta_ version of the Looker SDK. Implementations are still subject to change, but SDK method calls are expected to work correctly. Please [report any issues](https://github.com/mkaiser323/sdk-codegen/issues) encountered, and indicate the SDK language in the report.
 
 ## Getting started
 
@@ -109,8 +109,8 @@ export class EmbedSession extends ProxySession {
 
 ### More examples
 
-Looker's open source repository of [SDK Examples](https://github.com/looker-open-source/sdk-examples/tree/master/typescript) has more example scripts and applications that show how to use the Looker SDK.
+Looker's open source repository of [SDK Examples](https://github.com/mkaiser323/sdk-examples/tree/master/typescript) has more example scripts and applications that show how to use the Looker SDK.
 
 ## A note about security
 
-Any script or configuration file used to provide credentials to your Looker SDK instance [needs to be secured](https://github.com/looker-open-source/sdk-codegen#securing-your-sdk-credentials).
+Any script or configuration file used to provide credentials to your Looker SDK instance [needs to be secured](https://github.com/mkaiser323/sdk-codegen#securing-your-sdk-credentials).

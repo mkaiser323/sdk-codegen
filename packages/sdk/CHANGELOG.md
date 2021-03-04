@@ -35,16 +35,16 @@ See the [README](README.md#streaming-api-responses) for more information.
 ## [0.3.7-beta.5]
 
 - Moved sdk versioning constants out of the runtime into the sdk package
-- [Looker 7.20 bindings](https://github.com/looker-open-source/sdk-codegen/pull/383)
+- [Looker 7.20 bindings](https://github.com/mkaiser323/sdk-codegen/pull/383)
 
 ## [0.3.7-beta.3]
 
 ### Added
 
-- [Looker 7.18 bindings](https://github.com/looker-open-source/sdk-codegen/pull/350)
+- [Looker 7.18 bindings](https://github.com/mkaiser323/sdk-codegen/pull/350)
 
 ## [0.3.7-beta.2]
 
 ### Added
 
-- [Looker 7.16 bindings](https://github.com/looker-open-source/sdk-codegen/pull/348)
+- [Looker 7.16 bindings](https://github.com/mkaiser323/sdk-codegen/pull/348)

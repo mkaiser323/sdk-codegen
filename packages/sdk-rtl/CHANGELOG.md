@@ -13,5 +13,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.3.7-beta.5]
 
 - The SDK environment variable prefix can now be set to an empty string to avoid reading environment variables in [NodeSettingsIniFile() and NodeSettings()](src/nodeSettings.ts)
-- [Looker 7.20 bindings](https://github.com/looker-open-source/sdk-codegen/pull/383)
+- [Looker 7.20 bindings](https://github.com/mkaiser323/sdk-codegen/pull/383)
 

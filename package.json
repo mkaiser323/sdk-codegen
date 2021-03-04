@@ -7,13 +7,13 @@
   "workspaces": [
     "packages/*"
   ],
-  "homepage": "https://github.com/looker-open-source/sdk-codegen#readme",
+  "homepage": "https://github.com/mkaiser323/sdk-codegen#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/looker-open-source/sdk-codegen.git"
+    "url": "git+https://github.com/mkaiser323/sdk-codegen.git"
   },
   "bugs": {
-    "url": "https://github.com/looker-open-source/sdk-codegen/issues"
+    "url": "https://github.com/mkaiser323/sdk-codegen/issues"
   },
   "engines": {
     "node": ">=12",

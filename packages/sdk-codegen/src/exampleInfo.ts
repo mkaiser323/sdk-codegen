@@ -115,7 +115,7 @@ export interface IExampleMine extends IMine {
  * @param line line number in file
  */
 export const permaLink = (
-  // https://github.com/looker-open-source/sdk-codegen/blob/bfca52d2c8ba85018f76548158fd1dd90aa1f64a/examples/typescript/customConfigReader.ts#L53
+  // https://github.com/mkaiser323/sdk-codegen/blob/bfca52d2c8ba85018f76548158fd1dd90aa1f64a/examples/typescript/customConfigReader.ts#L53
   remote: string,
   hash: string,
   fileName: string,

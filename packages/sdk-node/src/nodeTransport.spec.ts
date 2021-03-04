@@ -31,7 +31,7 @@ describe('NodeTransport', () => {
   const hostname = 'https://looker.sdk'
   const settings = { base_url: hostname } as ITransportSettings
   const xp = new NodeTransport(settings)
-  const fullPath = 'https://github.com/looker-open-source/sdk-codegen'
+  const fullPath = 'https://github.com/mkaiser323/sdk-codegen'
   const badPath = fullPath + '_bogus'
   // const queryParams = { a: 'b c', d: false, nil: null, skip: undefined }
 

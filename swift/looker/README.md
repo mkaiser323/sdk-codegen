@@ -2,7 +2,7 @@
 
 The Looker SDK for Swift provides a convenient way to communicate with the Looker API available on your Looker server. The SDK is written in Swift and uses `URLSession` for HTTP request processing.
 
-**DISCLAIMER**: This is an _experimental_ version of the Looker SDK. Implementations are still subject to change, but SDK method calls are expected to work correctly. Please [report any issues](https://github.com/looker-open-source/sdk-codegen/issues) encountered, and indicate the SDK language in the report.
+**DISCLAIMER**: This is an _experimental_ version of the Looker SDK. Implementations are still subject to change, but SDK method calls are expected to work correctly. Please [report any issues](https://github.com/mkaiser323/sdk-codegen/issues) encountered, and indicate the SDK language in the report.
 
 ## Getting started
 
@@ -14,7 +14,7 @@ The Looker SDK can be used in a Swift application in 3 steps:
 
 ### Configure the SDK for your Looker server
 
-**Note**: The `.ini` configuration for the Looker SDK is a sample implementation intended to speed up the initial development of Node applications using the Looker API. See this note on [Securing your SDK Credentials](https://github.com/looker-open-source/sdk-codegen/blob/main/README.md#securing-your-sdk-credentials) for warnings about using `.ini` files that contain your API credentials in a source code repository or production environment.
+**Note**: The `.ini` configuration for the Looker SDK is a sample implementation intended to speed up the initial development of Node applications using the Looker API. See this note on [Securing your SDK Credentials](https://github.com/mkaiser323/sdk-codegen/blob/main/README.md#securing-your-sdk-credentials) for warnings about using `.ini` files that contain your API credentials in a source code repository or production environment.
 
 Create a `looker.ini` file with your server URL and API credentials assigned as shown in this example.
 
@@ -41,7 +41,7 @@ To ensure you have the version of the SDK that matches your Looker version, you 
 yarn gen swift
 ```
 
-If this command fails the first time, read the [instructions for setting up `yarn`](https://github.com/looker-open-source/sdk-codegen/blob/main/README.md#using-the-yarnnode-based-generator)
+If this command fails the first time, read the [instructions for setting up `yarn`](https://github.com/mkaiser323/sdk-codegen/blob/main/README.md#using-the-yarnnode-based-generator)
 
 ### Use the SDK in your code
 
@@ -141,7 +141,7 @@ func testBothPositionalAndNamed() {
 
 ### More examples
 
-Additional Swift SDK usage examples may be found in the [SDK Examples repository](https://github.com/looker-open-source/sdk-examples/tree/main/swift).
+Additional Swift SDK usage examples may be found in the [SDK Examples repository](https://github.com/mkaiser323/sdk-examples/tree/main/swift).
 
 ## Using AuthSession for automatic authentication
 
@@ -156,11 +156,11 @@ API users with appropriate permissions can `sudo` as another user by specifying 
 
 ## Environment variable configuration
 
-[Environment variables](https://github.com/looker-open-source/sdk-codegen#environment-variable-configuration) can be used to configure access for the Looker SDK.
+[Environment variables](https://github.com/mkaiser323/sdk-codegen#environment-variable-configuration) can be used to configure access for the Looker SDK.
 
 ## A note about security
 
-Any script or configuration file used to provide credentials to your Looker SDK instance [needs to be secured](https://github.com/looker-open-source/sdk-codegen#securing-your-sdk-credentials).
+Any script or configuration file used to provide credentials to your Looker SDK instance [needs to be secured](https://github.com/mkaiser323/sdk-codegen#securing-your-sdk-credentials).
 
 ## Classes vs. Structs
 

@@ -34,7 +34,7 @@ describe('ApiMethods', () => {
   const apiVersion = '3.1'
   const settings = { base_url: hostname } as IApiSettings
   const session = { settings: settings } as IAuthSession
-  const fullPath = 'https://github.com/looker-open-source/sdk-codegen'
+  const fullPath = 'https://github.com/mkaiser323/sdk-codegen'
   const mockAuth: Authenticator = (props: any) => props
   const api = new APIMethods(session, 'mock')
   api.apiVersion = apiVersion

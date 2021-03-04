@@ -3,7 +3,7 @@
 This package contains the Node-based scripts used by the Looker SDK Codegen project.
 
 **NOT SUPPORTED**: Looker does not support direct use of this package, other than via direct use in the 
-[SDK Codegen project](https://github.com/looker-open-source/sdk-codegen) repository.
+[SDK Codegen project](https://github.com/mkaiser323/sdk-codegen) repository.
 
 ## Scripts
 

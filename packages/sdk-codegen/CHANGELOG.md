@@ -9,5 +9,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- [API spec diff utility](https://github.com/looker-open-source/sdk-codegen/pull/380)
+- [API spec diff utility](https://github.com/mkaiser323/sdk-codegen/pull/380)
 

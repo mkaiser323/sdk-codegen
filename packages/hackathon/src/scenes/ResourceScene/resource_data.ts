@@ -38,7 +38,7 @@ export const resources = [
     content: 'Gzr is a Looker Content Utility developer tool',
     type: 'Example',
     tag: 'devtool',
-    link: 'https://github.com/looker-open-source/gzr',
+    link: 'https://github.com/mkaiser323/gzr',
     title: 'Gzr',
   },
   {
@@ -46,7 +46,7 @@ export const resources = [
     content: "LookR is the Looker SDK. It's in need of some revitalization!",
     type: 'Example',
     tag: 'api',
-    link: 'https://github.com/looker-open-source/lookr',
+    link: 'https://github.com/mkaiser323/lookr',
     title: 'LookR SDK',
   },
   {
@@ -55,7 +55,7 @@ export const resources = [
       'The SDK Codegen is the source of truth for all SDKs and lets you create them for any language',
     type: 'Resource',
     tag: 'api',
-    link: 'https://github.com/looker-open-source/sdk-codegen',
+    link: 'https://github.com/mkaiser323/sdk-codegen',
     title: 'SDK Codegen',
   },
   {
@@ -65,7 +65,7 @@ export const resources = [
     type: 'Resource',
     tag: 'api',
     link:
-      'https://github.com/looker-open-source/sdk-codegen/tree/main/examples',
+      'https://github.com/mkaiser323/sdk-codegen/tree/main/examples',
     title: 'SDK Examples',
   },
   {
@@ -74,7 +74,7 @@ export const resources = [
       "LAMS is a style guide and linter for Looker's LookML data modeling language. It is designed to help a team of developers to produce more maintainable LookML projects.",
     type: 'Example',
     tag: 'devtool',
-    link: 'https://github.com/looker-open-source/look-at-me-sideways',
+    link: 'https://github.com/mkaiser323/look-at-me-sideways',
     title: 'Look At Me Sideways',
   },
   {
@@ -101,7 +101,7 @@ export const resources = [
       'The Looker JavaScript Embed SDK is designed to facilitate using Looker embedded content in your web application. It makes embedding easy!',
     type: 'Resource',
     tag: 'embed',
-    link: 'https://github.com/looker-open-source/embed-sdk',
+    link: 'https://github.com/mkaiser323/embed-sdk',
     title: 'Embed SDK',
   },
   {
@@ -110,7 +110,7 @@ export const resources = [
       'Henry is a command line tool that helps determine model bloat in your Looker instance and identify unused content in models and explores.',
     type: 'example',
     tag: 'devtool',
-    link: 'https://github.com/looker-open-source/henry',
+    link: 'https://github.com/mkaiser323/henry',
     title: 'Henry',
   },
   {
@@ -119,7 +119,7 @@ export const resources = [
       "This is a simple React based extension template. It's functional out of the box and a great starting point.",
     type: 'example',
     tag: 'extension',
-    link: 'https://github.com/looker-open-source/extension-template-react',
+    link: 'https://github.com/mkaiser323/extension-template-react',
     title: 'Extension Template: React',
   },
   {
@@ -128,7 +128,7 @@ export const resources = [
       'This repository serves as a template for creating a new Looker Extension using React and Redux.',
     type: 'example',
     tag: 'extension',
-    link: 'https://github.com/looker-open-source/extension-template-redux',
+    link: 'https://github.com/mkaiser323/extension-template-redux',
     title: 'Extension Template: Redux',
   },
   {
@@ -138,7 +138,7 @@ export const resources = [
     type: 'example',
     tag: 'extension',
     link:
-      'https://github.com/looker-open-source/extension-template-kitchensink',
+      'https://github.com/mkaiser323/extension-template-kitchensink',
     title: 'Extension Template: KitchenSink',
   },
   {
@@ -156,7 +156,7 @@ export const resources = [
       'Chatty is a simple web browser iframe host/client channel message manager. We use it for iframe communication.',
     type: 'resources',
     tag: 'embed',
-    link: 'https://github.com/looker-open-source/chatty',
+    link: 'https://github.com/mkaiser323/chatty',
     title: 'Chatty',
   },
   {
@@ -165,7 +165,7 @@ export const resources = [
       'This repository contains the Snowflake based LookML, for both the model and dashboards, for demonstrating Looker’s ability to provide value within the digital marketing landscape.',
     type: 'example',
     tag: 'lookml',
-    link: 'https://github.com/looker-open-source/marketing_demo',
+    link: 'https://github.com/mkaiser323/marketing_demo',
     title: 'Digital Marketing Demo',
   },
   {
@@ -174,7 +174,7 @@ export const resources = [
       'This repository contains the BigQuery based LookML, for both the model and dashboards, for demonstrating Looker’s ability to provide value within the healthcare landscape.',
     type: 'example',
     tag: 'lookml',
-    link: 'https://github.com/looker-open-source/healthcare_demo',
+    link: 'https://github.com/mkaiser323/healthcare_demo',
     title: 'Healthcare Demo',
   },
   {
@@ -183,7 +183,7 @@ export const resources = [
       'This is the official Looker Data Dictionary, fully open source and available as an example.',
     type: 'example',
     tag: 'extension',
-    link: 'https://github.com/looker-open-source/app-data-dictionary',
+    link: 'https://github.com/mkaiser323/app-data-dictionary',
     title: 'Data Dictionary Extension',
   },
   {
@@ -210,7 +210,7 @@ export const resources = [
       'This repository demonstrates how to write a Looker extension that needs an access key to run.',
     type: 'example',
     tag: 'extension',
-    link: 'https://github.com/looker-open-source/extension-access-key-demo',
+    link: 'https://github.com/mkaiser323/extension-access-key-demo',
     title: 'Extension Template: Access Key',
   },
   {
